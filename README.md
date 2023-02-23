@@ -1,5 +1,4 @@
-# password-generator
-Password Generator
+# Password Generator
 
 
 ## User Story
