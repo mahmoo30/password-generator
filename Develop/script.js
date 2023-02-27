@@ -34,6 +34,10 @@ function generatePassword() {
         if (passwordSpecial == true) {
             passcode += '!';
         }
+        else {
+            window.alert ("Please Select at least 1 Category to Begin");
+            return ("Please Try Again");
+        }
 
         var newCode = randomString(passwordLength, passcode); // Calls the function randomString
     }
